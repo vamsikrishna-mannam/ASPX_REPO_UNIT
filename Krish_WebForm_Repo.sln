@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Roladex", "..\..\WebSites\Roladex\", "{48902DE6-79EC-428C-ADFD-57551F2C88FC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{59474c75-3b7a-4f78-a9d1-c944e058397d}|BusinessEntities.dll;{26932a6c-7d1f-4053-b9fc-8b9986ece55c}|BusinessLogic.dll;{3FF82123-5322-4EDC-ADE5-E1D6163F8FD8}|DataLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50125"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Roladex\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50125\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50125"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Roladex\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50125\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50125"
+		SlnRelativePath = "..\..\WebSites\Roladex\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntities", "BusinessEntities\BusinessEntities.csproj", "{59474C75-3B7A-4F78-A9D1-C944E058397D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{26932A6C-7D1F-4053-B9FC-8B9986ECE55C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{3FF82123-5322-4EDC-ADE5-E1D6163F8FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRepositories", "TestRepositories\TestRepositories.csproj", "{6549905F-D04C-4A85-8C80-1EBF7AE5B2A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48902DE6-79EC-428C-ADFD-57551F2C88FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48902DE6-79EC-428C-ADFD-57551F2C88FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48902DE6-79EC-428C-ADFD-57551F2C88FC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{48902DE6-79EC-428C-ADFD-57551F2C88FC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{59474C75-3B7A-4F78-A9D1-C944E058397D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59474C75-3B7A-4F78-A9D1-C944E058397D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59474C75-3B7A-4F78-A9D1-C944E058397D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59474C75-3B7A-4F78-A9D1-C944E058397D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26932A6C-7D1F-4053-B9FC-8B9986ECE55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26932A6C-7D1F-4053-B9FC-8B9986ECE55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26932A6C-7D1F-4053-B9FC-8B9986ECE55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26932A6C-7D1F-4053-B9FC-8B9986ECE55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF82123-5322-4EDC-ADE5-E1D6163F8FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF82123-5322-4EDC-ADE5-E1D6163F8FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF82123-5322-4EDC-ADE5-E1D6163F8FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF82123-5322-4EDC-ADE5-E1D6163F8FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6549905F-D04C-4A85-8C80-1EBF7AE5B2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6549905F-D04C-4A85-8C80-1EBF7AE5B2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6549905F-D04C-4A85-8C80-1EBF7AE5B2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6549905F-D04C-4A85-8C80-1EBF7AE5B2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5114DB9-AE11-4205-8CB9-FF0B6EC16DD2}
+	EndGlobalSection
+EndGlobal
